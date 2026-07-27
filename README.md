@@ -3,8 +3,10 @@ Video Demo: [🎥 View Video Demo](https://riaanvanwyk.onrender.com/GravityPrese
 
 Presentation: [📄 View Full Presentation](https://riaanvanwyk.onrender.com/GravityPresentation.html)
 
-Personal Website: [🌐 Open My Website](https://riaanvanwyk.onrender.com/index.html)
-
+Personal Website: [🌐 Open My Website](https://riaanvanwyk.onrender.com/index.html)<br><br>
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 
 #### Description:
 
