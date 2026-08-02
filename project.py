@@ -209,7 +209,8 @@ def NewPopupLoadPreset():
     tk_window.title("Preset Loader")
     tk_window.geometry("600x600")
     tk_window.configure(bg="#1e1e1e")  # dark background
-
+    tk_window.protocol("WM_DELETE_WINDOW", lambda: (tk_window.destroy(), set_tk_none()))
+    
     # Title
     title = tk.Label(
         tk_window,
@@ -296,6 +297,7 @@ def NewPopupCreateSimulation():
     tk_window.title("Create Simulation")
     tk_window.geometry("600x650")
     tk_window.configure(bg="#1e1e1e")
+    tk_window.protocol("WM_DELETE_WINDOW", lambda: (tk_window.destroy(), set_tk_none()))
 
     # --- SCROLLABLE CANVAS SETUP ---
     canvas = tk.Canvas(tk_window, bg="#1e1e1e", highlightthickness=0)
